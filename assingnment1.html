@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <link rel="stylesheet" href="index1.css">
+    <title>Document</title>
+</head>
+<body id="root">
+    <script>
+    var h1  = React.createElement("h1",null,"About us")
+    var p1  = React.createElement("p",null,"At Zappos.com, our purpose is simple: to live and deliver WOW.")
+    var br1 = React.createElement("br")
+    var p2 = React.createElement("p",null,"Twenty years ago, we began as a small online retailer that only sold shoes.Today, we still sell shoes -- as well as clothing handbugs, accresories and more. That more is providing the very best customer service, customer experience and company culture. We aim to inspire the world by showing its possible to simultaneously deliver happiness to customers,employees,vendors,shareholders, and the community in a long-term, sustainable way.")
+    var p3 = React.createElement("p",null,"We hope that in the future people wont even realize we started selling shoes online. instead, they'll know Zappos as a service company that just happens to sell__________.")
+    var div =  React.createElement('div',null,[h1,p1,br1,p2,p3])
+    ReactDOM.render(div,document.getElementById('root'))
+    </script>
+     
+</body>
+</html>
