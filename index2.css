@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(232, 122, 141)
+}
+
+
+.mainDiv{
+    text-align: center;
+    margin-top: 120px;
+}
+.h1{
+    color: rgb(242, 237, 237);
+    font-size: 80px;
+    
+}
+.h2{
+    color: rgb(242, 237, 237);
+    font-size: 80px;
+}
+.p{
+    color: rgb(242, 237, 237);
+    font-size: 50px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <link rel="stylesheet" href="index2.css">
+    <title>Document</title>
+</head>
+<body id="root">
+    <script>
+        var h1  = React.createElement("h1",{
+             className : "h1"
+        },"The Evolution of ")
+        var h2 = React.createElement("h1",{className : "h2"},"Airbnb's Fronted")
+        var br  = React.createElement("br")
+        var p   = React.createElement("p",{className :"p"},"@spikebrehm")
+        var img = React.createElement("img",{
+             src : "airbnb.png"
+        },null)
+        
+        var div  = React.createElement('div',null,[h1,h2,br,br,br,p,br,br,br,br,img])
+        var div1 = React.createElement("div",{className: "mainDiv"},[div])
+        ReactDOM.render(div1,document.getElementById('root'))
+    </script>
+</body>
+</html>
